@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget{
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.grey,
-        appBar: AppBar(title: Text('GridView Widget',style: TextStyle(color: Colors.red,fontSize: 20),),centerTitle: true,),
+        appBar: AppBar(title: Text('GridView Widget',style: TextStyle(color: Colors.white,fontSize: 20),),centerTitle: true,backgroundColor: Colors.purple,),
       ),
     );
   }
