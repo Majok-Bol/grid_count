@@ -8,7 +8,8 @@ class MyApp extends StatelessWidget{
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: AppBar(title: Text('GridView.count Widget',style: TextStyle(color: Colors.red,fontSize: 20),),centerTitle: true,),
+        backgroundColor: Colors.grey,
+        appBar: AppBar(title: Text('GridView Widget',style: TextStyle(color: Colors.red,fontSize: 20),),centerTitle: true,),
       ),
     );
   }
