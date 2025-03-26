@@ -10,6 +10,13 @@ class MyApp extends StatelessWidget{
       home: Scaffold(
         backgroundColor: Colors.grey,
         appBar: AppBar(title: Text('GridView Widget',style: TextStyle(color: Colors.white,fontSize: 20),),centerTitle: true,backgroundColor: Colors.purple,),
+        body: Container(
+          padding: EdgeInsets.all(10),
+          child: GridView.count(crossAxisCount: 2,
+          children: [
+            Image.asset('name')
+          ],),
+        ),
       ),
     );
   }
